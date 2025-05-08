@@ -1,1 +1,2 @@
-wc to webdev learning.
+# web-development
+this is my learning repo.
