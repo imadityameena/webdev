@@ -1,0 +1,16 @@
+div{
+    background-color: burlywood;
+  
+    
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+li{
+    list-style-type: none;
+      display: flex;
+    justify-content: space-evenly;
+}
