@@ -32,3 +32,32 @@ const myfunction = function(){
 }
 
 console.log(typeof anotherId)
+
+
+// ---------------------------------------------------------
+
+// Stack memory (primitive), Heap (non-primitive)
+
+let myYoutubename = "Huppyy plays"
+
+let anotherName = myYoutubename
+anotherName = "chaiorCOde"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+
+    email: "aditya@gmail.com",
+    upi: "xyz@ybl"
+    
+}
+
+let  usertwo = userOne
+
+usertwo.email = "meena@gmail.com"
+
+console.log(userOne.email);
+console.log(usertwo.email);
+
+
