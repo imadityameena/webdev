@@ -87,7 +87,7 @@ setInterval(function () {
 
 ## Project 4
 
-```javacript
+```javascript
 
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
@@ -181,5 +181,7 @@ function newGame() {
     playGame = true;
   });
 }
+
+
 
 ```
