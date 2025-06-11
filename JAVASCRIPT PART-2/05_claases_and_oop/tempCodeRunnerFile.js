@@ -1,0 +1,1 @@
+console.log(multipleBy5(5));
