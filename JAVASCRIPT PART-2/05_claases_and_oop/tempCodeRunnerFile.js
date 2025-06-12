@@ -1,1 +1,1 @@
-console.log(multipleBy5(5));
+console.log(huppyyy.createId());
