@@ -1,0 +1,10 @@
+div{
+  display: inline-block;
+  background-color: rgb(91, 91, 193);
+  height: 100px;
+  width: 100px;
+}
+
+.hey{
+  color: red;
+}

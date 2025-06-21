@@ -1,0 +1,43 @@
+body{
+   text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+
+}
+
+#container{
+width: 200px;
+height: 600px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+flex-grow: 2;
+
+}
+
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: rgb(100, 197, 43);
+}
+#box3{
+    background-color: rgb(101, 89, 154);
+}
+#box4{
+    background-color: rgb(76, 211, 235);
+}
+
+
+
+#box5{
+    background-color: rgb(155, 137, 137);
+}

@@ -1,0 +1,37 @@
+div{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+   
+}
+
+
+@media (max-width: 300px) {
+    div{
+        background-color: green;
+    }
+    
+}
+    
+
+@media (min-width: 300px) {
+    div{
+        background-color: blue;
+    }
+    
+}
+  
+@media (min-width: 400px) and (max-width: 600px) {
+    div{
+        background-color: chocolate;
+    }
+    
+}
+  
+@media (max-width: 600px) {
+    div{
+        background-color:yellow;
+    }
+    
+}
+  

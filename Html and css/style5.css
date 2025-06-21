@@ -1,0 +1,22 @@
+div {
+  background-color: pink;
+  height: 200px;
+  width: 200px;
+  /*   
+   animation-name: animateColor ;
+   animation-timing-function: 2s;
+   animation-delay: 0s;
+ 
+   animation-iteration-count: infinite; */
+
+  animation: animateColor 2s ease-in 0s infinite normal;
+}
+
+@keyframes animateColor {
+  from {
+    background-color: pink;
+  }
+  to {
+    background-color: green;
+  }
+}
