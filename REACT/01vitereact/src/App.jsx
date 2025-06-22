@@ -1,10 +1,15 @@
+import Coffee from "./coffee" 
+
 
 
 function App() {
  
 
   return (
-    <h1>Cofee and code with vite</h1>
+    <>
+   <Coffee/>
+   <h1>Coffee or  react </h1>
+   </>
   )
     
 }       
