@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 
-export default function Protectedt({children, authentication = true}) {
+export default function Protected({children, authentication = true}) {
 
   const navigate = useNavigate()
   const [loader, setLoader] = useState(true)
