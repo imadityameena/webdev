@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const { log } = require('three/tsl');
 
@@ -20,7 +21,18 @@ app.get('/twitter', (req, res) => {
 })
 
 
-app.listen(port, () => {
+app.get('/login', (req, res) => {
+  res.send("<h1>Please login at Chai and Code<h1>")
+
+})
+
+app.get('/youtube', (req, res) => {
+  res.send("<h2>Welcome to Youtube! <h2>")
+
+})
+
+
+app.listen(process.env.PORT, () => {
 
   console.log(`Example App listening on port ${port}`);
   
